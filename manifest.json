@@ -1,0 +1,19 @@
+{
+    "required_api_version": "^2.0.0",
+    "name": "Ulauncher Thingiverse Extension",
+    "description": "Ulauncher extension for searching in Thingiverse.",
+    "developer_name": "Stijn Van Campenhout",
+    "icon": "icons/thingiverse.svg",
+    "options": {
+      "query_debounce": 0.5
+    },
+    "preferences": [
+      {
+        "id": "l_kw",
+        "type": "keyword",
+        "name": "Thingiverse Search",
+        "description": "Type in your query and press Enter...",
+        "default_value": "thing"
+      }
+    ]
+  }
